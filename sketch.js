@@ -5,17 +5,17 @@ let myFont;
 function preload(){
 
     //code referenced from: https://p5js.org/tutorials/loading-and-selecting-fonts/ -------
-    myFont = loadFont('/typefaces/FormaDJRTextMedium.ttf');
+    myFont = loadFont('typefaces/FormaDJRTextMedium.ttf');
 
     // ---------------------------------------------------------------
 
-    let face1 = loadImage('/BW/emotion1.png');
-    let face2 = loadImage('/BW/emotion2.png');
-    let face3 = loadImage('/BW/emotion3.png');
-    let face4 = loadImage('/BW/emotion4.png');
-    let face5 = loadImage('/BW/emotion5.png');
-    let face6 = loadImage('/BW/emotion6.png');
-    let face7 = loadImage('/BW/emotion7.png');
+    let face1 = loadImage('BW/emotion1.png');
+    let face2 = loadImage('BW/emotion2.png');
+    let face3 = loadImage('BW/emotion3.png');
+    let face4 = loadImage('BW/emotion4.png');
+    let face5 = loadImage('BW/emotion5.png');
+    let face6 = loadImage('BW/emotion6.png');
+    let face7 = loadImage('BW/emotion7.png');
 
     faces = [face1, face2, face3, face4, face5, face6, face7]
 }
