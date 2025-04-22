@@ -6,17 +6,17 @@ let myFont;
 function preload(){
 
     //code referenced from: https://p5js.org/tutorials/loading-and-selecting-fonts/ -------
-    myFont = loadFont('/typefaces/FormaDJRTextMedium.ttf');
+    myFont = loadFont('typefaces/FormaDJRTextMedium.ttf');
 
     // ---------------------------------------------------------------
 
-    let face1 = loadImage('/BW/emotion1.png');
-    let face2 = loadImage('/BW/emotion2.png');
-    let face3 = loadImage('/BW/emotion3.png');
-    let face4 = loadImage('/BW/emotion4.png');
-    let face5 = loadImage('/BW/emotion5.png');
-    let face6 = loadImage('/BW/emotion6.png');
-    let face7 = loadImage('/BW/emotion7.png');
+    let face1 = loadImage('BW/emotion1.png');
+    let face2 = loadImage('BW/emotion2.png');
+    let face3 = loadImage('BW/emotion3.png');
+    let face4 = loadImage('BW/emotion4.png');
+    let face5 = loadImage('BW/emotion5.png');
+    let face6 = loadImage('BW/emotion6.png');
+    let face7 = loadImage('BW/emotion7.png');
     let face8 = loadImage('BW/emotion15.png');
     let face9 = loadImage('BW/emotion16.png');
     let face10 = loadImage('BW/emotion17.png');
@@ -26,18 +26,18 @@ function preload(){
 
     faces = [face1, face2, face3, face4, face5, face6, face7, face8, face9, face10, face11, face12]
 
-    let object1 = loadImage('/BW2/object1.png');
-    let object2 = loadImage('/BW2/object2.png');
-    let object3 = loadImage('/BW2/object3.png');
-    let object4 = loadImage('/BW2/object4.png');
-    let object5 = loadImage('/BW2/object5.png');
-    let object6 = loadImage('/BW2/object6.png');
-    let object7 = loadImage('/BW2/object7.png');
-    let object8 = loadImage('/BW2/object8.png');
-    let object9 = loadImage('/BW2/object9.png');
-    let object10 = loadImage('/BW2/object10.png');
-    let object11 = loadImage('/BW2/object11.png');
-    let object12 = loadImage('/BW2/object12.png');
+    let object1 = loadImage('BW2/object1.png');
+    let object2 = loadImage('BW2/object2.png');
+    let object3 = loadImage('BW2/object3.png');
+    let object4 = loadImage('BW2/object4.png');
+    let object5 = loadImage('BW2/object5.png');
+    let object6 = loadImage('BW2/object6.png');
+    let object7 = loadImage('BW2/object7.png');
+    let object8 = loadImage('BW2/object8.png');
+    let object9 = loadImage('BW2/object9.png');
+    let object10 = loadImage('BW2/object10.png');
+    let object11 = loadImage('BW2/object11.png');
+    let object12 = loadImage('BW2/object12.png');
 
     objects = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12]
 }
