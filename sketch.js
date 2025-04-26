@@ -39,7 +39,7 @@ function setup(){
 }
 
 // code referenced from The Coding Train: https://youtu.be/lm8Y8TD4CTM?si=artUUp3bCUTPghZD
-function resetSketch(){
+function resetSketch(){ // <---- this is my favourite block of code because I was able to figure out how to get the answer to reset every time someone entered their answer rather than having it always go over into the next segment. This was something that was bothering me for a while.
     imageMode(CENTER);
 
 let randoImg = random(faces);
