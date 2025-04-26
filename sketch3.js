@@ -1,5 +1,4 @@
 let faces = [];
-let objects = [];
 let numFaces = 7;
 let myFont;
 
@@ -22,25 +21,9 @@ function preload(){
     let face10 = loadImage('BW/emotion17.png');
     let face11 = loadImage('BW/emotion18.png');
     let face12 = loadImage('BW/emotion19.png');
-    //Images sourced from thispersondoesnotexist.com
-
+//Images sourced from thispersondoesnotexist.com
 
     faces = [face1, face2, face3, face4, face5, face6, face7, face8, face9, face10, face11, face12]
-
-    let object1 = loadImage('BW2/object1.png');
-    let object2 = loadImage('BW2/object2.png');
-    let object3 = loadImage('BW2/object3.png');
-    let object4 = loadImage('BW2/object4.png');
-    let object5 = loadImage('BW2/object5.png');
-    let object6 = loadImage('BW2/object6.png');
-    let object7 = loadImage('BW2/object7.png');
-    let object8 = loadImage('BW2/object8.png');
-    let object9 = loadImage('BW2/object9.png');
-    let object10 = loadImage('BW2/object10.png');
-    let object11 = loadImage('BW2/object11.png');
-    let object12 = loadImage('BW2/object12.png');
-
-    objects = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12]
 }
 
 
@@ -59,15 +42,11 @@ function resetSketch(){
     imageMode(CENTER);
 
 let randoImg = random(faces);
-let rundoImg = random(objects);
 
+image(randoImg, width / 2, height / 2.1, 340, 340);
 
-
-image(randoImg, width / 3, height / 2.1, 240, 240);
-image(rundoImg, width / 1.5, height / 2.1, 240, 240);
 
 myInput = createInput('answer');
-myInput.mousePressed(' ');
 myInput.position(width / 2.6, height / 1.3);
 
 let button = createButton('ENTER');
@@ -84,11 +63,8 @@ background('black');
 imageMode(CENTER);
 
 let randoImg = random(faces);
-let rundoImg = random(objects);
 
-
-image(randoImg, width / 3, height / 2.1, 240, 240);
-image(rundoImg, width / 1.5, height / 2.1, 240, 240);
+image(randoImg, width / 2, height / 2.1, 340, 340);
 
 myInput = createInput('answer');
 myInput.position(width / 2.6, height / 1.3);
@@ -106,21 +82,13 @@ textFont(myFont);
   textSize(36);
   textAlign(CENTER, CENTER);
   fill('white');
-  text('IDENTIFY THE FOLLOWING EMOTION ', width / 2, height / 7);
+  text('DO NON-EXISTENT PEOPLE EMOTE?', width / 2, height / 7);
 
   textFont(myFont);
   textSize(13);
   textAlign(CENTER, CENTER);
   fill('white');
-  text('STAGE 2 ', width / 2, height / 17);
-
-//   textFont(myFont);
-//   textSize(10);
-//   textAlign(CENTER, CENTER);
-//   fill('white');
-//   text('NEXT STAGE ', width / 2, height / 1.08);
-//   textFont.mousePressed(window.open('https://www.w3schools.com/jsref/met_win_open.asp'));
-
+  text('STAGE 3 ', width / 2, height / 17);
 
 
 }

@@ -21,6 +21,7 @@ function preload(){
     let face10 = loadImage('BW/emotion17.png');
     let face11 = loadImage('BW/emotion18.png');
     let face12 = loadImage('BW/emotion19.png');
+    //Images sourced from thispersondoesnotexist.com
 
 
     faces = [face1, face2, face3, face4, face5, face6, face7, face8, face9, face10, face11, face12]
